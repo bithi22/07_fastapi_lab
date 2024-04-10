@@ -1,0 +1,53 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .welcome {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Adjust color as desired */
+  }
+  
+  .textbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .delete-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e04040; /* Adjust color as desired */
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  
+  .add-button,
+  .taskmanager-button {
+    padding: 5px;  /* Adjust padding as needed */
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin: 0 5px;
+    /* Achieve equal height using line-height */
+    line-height: 15px;  /* Adjust as desired */
+  }
+  
+  .button-group {
+    display: flex;
+  }
+  
